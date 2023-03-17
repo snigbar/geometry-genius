@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1{
+            font-size: 26px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            padding: 30px;
+
+        }
+
+        p{
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            padding: 10px;
+
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>what is DOM and what is the purpose of Dom?</h1>
+    <p><span>Answer:</span>
+        The Document Object Model (DOM) is an interface for web decouments.DOM represents the website as nodes and objects. We can change website documents, style, contents, structures.
+        DOM representation of the web page allows to modify using programming language.
+        The purpose of DOM is to make website interactive. Such as changing the document structure, style, and content etc. 
+    </p>
+
+    <h1>what are the ways of selecting elements form DOM?</h1>
+    <p><span>Answer:</span>
+      We can select elemnts by different methods using JavaScript. Some of them are described below: <br>
+        
+      1. getElementsById(): We can use this method to select a html element with specific ID. For example if an element has id of "new-id". 
+        we can select the element from html document using document.getElementsByTagName("new-id"). <br>
+
+      2. getElementsByClassName(): We can use this method to select a html elements with specific classes. For example if one or more element has class of "new-class". 
+        we can select those elements from html document using document.getElementsByClassName("new-class").<br>
+
+      3. getElementsByTagName(): We can use this to select html elements with same tag name. For example we can select all h1 elements from html document using document.getElementsByTagName("h1"). <br>
+      
+      4. querySelector(): This one select the first element that matches the specified CSS selector in the document. For example document.querySelector('li'), document.querySelector('.heading') will
+        select the first element which matches the query.<br>
+    
+      5. querySelectorAll(): This one select list of all elements that matches the specified elemnts. document.querySelectorAll('.heading') will select all the elements with class name heading.<br>
+    
+    </p>
+
+    <h1>What is event bubbling?</h1>
+    <p><span>Answer:</span>
+       
+        Event bubbling is a method in DOM. When an element receive an event and then transfers the event handler to the parent to parent elemnts until
+        the outermost element.We can stop event bubbling using stopPropagation() method.
+    
+    </p>
+
+    <h1>What is a callback function? Why do we use it?</h1>
+    <p><span>Answer:</span>
+       
+        When we pass a function as an argument of another function its called callback fucntion. Like events to happen when mouse clicked, mousehover etc.
+        The main purpose of using callback fucntions is to make event handling easier. 
+    
+    </p>
+
+
+</body>
+</html>
